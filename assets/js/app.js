@@ -17,11 +17,14 @@ function startApp(parent){
 
 document.getElementById('theme-button').addEventListener('click', getTheme);
 
-function getTheme() {
+function getTheme(save) {
+    let root = document.getElementById("theme-path").value;
     let theme = window.localStorage.getItem('theme');
-    theme = (theme !== 'dark') ? 'dark' : 'ligth';
+    if(save) {
+        theme = (theme !== 'dark') ? 'dark' : 'ligth';
+    }
     let style = document.querySelector('link');
-    style.href = "./assets/css/" + theme + ".css";
+    style.href =  root + "/assets/css/" + theme + ".css";
     window.localStorage.setItem('theme', theme);
 }
 if(["dark", "light"].includes(window.localStorage.getItem('theme'))) {

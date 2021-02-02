@@ -1,7 +1,7 @@
 <?php
 $title = "Titre page 2";
-include './_partials/header.php';
-include './_partials/menu.php';
+include $_SERVER['DOCUMENT_ROOT'] . '/pages/_partials/header.php';
+include $_SERVER['DOCUMENT_ROOT'] . '/pages/_partials/menu.php';
 ?>
     <!-- inclusion du header  et du menu se trouvant dans le fichier_partials/header.php et _partials/menu.php-->
 
@@ -10,6 +10,6 @@ include './_partials/menu.php';
         <div id="app-root"></div>
     </main>
 
-<?php include './_partials/footer.php';
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/pages/_partials/footer.php';
 
 
