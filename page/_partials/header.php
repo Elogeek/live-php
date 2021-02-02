@@ -1,3 +1,9 @@
+<?php
+$root = "/".basename($_SERVER['DOCUMENT_ROOT']);
+$root = str_replace("//", "/", $root);
+include $_SERVER['DOCUMENT_ROOT'].'/lib/func_error.php';
+?>
+
 <!doctype html>
 <html lang="en">
 <head>

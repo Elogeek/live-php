@@ -1,7 +1,7 @@
 <?php
 $title = "Mon super index";
-include $_SERVER['DOCUMENT_ROOT'] .'/pages/_partials/header.php';
-include $_SERVER['DOCUMENT_ROOT'] .'/pages/_partials/menu.php';
+include $_SERVER['DOCUMENT_ROOT'] . '/page/_partials/header.php';
+include $_SERVER['DOCUMENT_ROOT'] . '/page/_partials/menu.php';
 ?>
 <!-- inclusion du header  et du menu se trouvant dans le fichier_partials/header.php et _partials/menu.php-->
 
@@ -17,5 +17,5 @@ include $_SERVER['DOCUMENT_ROOT'] .'/pages/_partials/menu.php';
         </section>
     </main>
 
-   <?php include $_SERVER['DOCUMENT_ROOT'] . '/pages/_partials/footer.php';
+   <?php include $_SERVER['DOCUMENT_ROOT'] . '/page/_partials/footer.php';
 
