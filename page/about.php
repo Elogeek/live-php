@@ -1,7 +1,7 @@
 <?php
 $title = "Title about";
 include $_SERVER['DOCUMENT_ROOT'] . '/page/_partials/header.php';
-include $_SERVER['DOCUMENT_ROOT'] . 'page/_partials/menu.php';
+include $_SERVER['DOCUMENT_ROOT'] . '/page/_partials/menu.php';
 ?>
 
 <!--page content-->
@@ -10,4 +10,5 @@ include $_SERVER['DOCUMENT_ROOT'] . 'page/_partials/menu.php';
 </main>
 
 <?php
-include $_SERVER['DOCUMENT_ROOT'] . 'page/_partials/footer.php';
+
+include $_SERVER['DOCUMENT_ROOT'] . '/page/_partials/footer.php';

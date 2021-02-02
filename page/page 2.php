@@ -10,6 +10,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/page/_partials/menu.php';
         <div id="app-root"></div>
     </main>
 
-<?php include './_partials/footer.php';
+<?php
+
+include $_SERVER['DOCUMENT_ROOT'] . '/page/_partials/footer.php';
 
 
